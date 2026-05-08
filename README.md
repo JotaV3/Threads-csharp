@@ -7,7 +7,7 @@ Projeto desenvolvido para aprendizado de Threads em C# .NET.
 - Execução paralela
 - Sincronização
 - Concorrência
-- Task e async/await
+- Tasks
 - Controle de execução
 
 ## Tecnologias
