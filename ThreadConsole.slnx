@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ThreadConsole/ThreadConsole.csproj" Id="e2ff7cd5-1902-4ae8-9bb3-769cfcdb5049" />
+  <Project Path="ThreadForm/ThreadForm.csproj" Id="d327d1aa-ed1c-49a6-9aa4-99fa677f7eee" />
+</Solution>

@@ -1,0 +1,64 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# Test Results
+TestResults/
+
+# Publish output
+publish/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# OS generated files
+.DS_Store
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Temporary files
+*.tmp
+*.temp
+
+# Visual Studio Code
+.vscode/
+
+# Database files (caso use localdb/sqlite)
+*.mdf
+*.ldf
+*.db
+
+# Generated files
+Generated\ Files/
+
+# Backup files
+Backup*/
+
+# Entity Framework
+*.edmx.diagram
+
+# Azure
+PublishScripts/
+
+# JetBrains Rider
+*.sln.iml
