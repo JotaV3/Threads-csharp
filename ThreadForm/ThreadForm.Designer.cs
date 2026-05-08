@@ -1,6 +1,6 @@
 ﻿namespace ThreadForm
 {
-    partial class Form1
+    partial class ThreadForm
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.lblResult = new System.Windows.Forms.Label();
-            this.btnPrincipal = new System.Windows.Forms.Button();
-            this.btnContador = new System.Windows.Forms.Button();
+            this.btnMain = new System.Windows.Forms.Button();
+            this.btnCounter = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblResult
@@ -41,39 +41,39 @@
             this.lblResult.Size = new System.Drawing.Size(776, 124);
             this.lblResult.TabIndex = 0;
             // 
-            // btnPrincipal
+            // btnMain
             // 
-            this.btnPrincipal.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrincipal.Location = new System.Drawing.Point(70, 296);
-            this.btnPrincipal.Name = "btnPrincipal";
-            this.btnPrincipal.Size = new System.Drawing.Size(241, 89);
-            this.btnPrincipal.TabIndex = 1;
-            this.btnPrincipal.Text = "Principal";
-            this.btnPrincipal.UseVisualStyleBackColor = true;
-            this.btnPrincipal.Click += new System.EventHandler(this.btnPrincipal_Click);
+            this.btnMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMain.Location = new System.Drawing.Point(70, 296);
+            this.btnMain.Name = "btnMain";
+            this.btnMain.Size = new System.Drawing.Size(241, 89);
+            this.btnMain.TabIndex = 1;
+            this.btnMain.Text = "Principal";
+            this.btnMain.UseVisualStyleBackColor = true;
+            this.btnMain.Click += new System.EventHandler(this.btnMain_Click);
             // 
-            // btnContador
+            // btnCounter
             // 
-            this.btnContador.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnContador.Location = new System.Drawing.Point(488, 296);
-            this.btnContador.Name = "btnContador";
-            this.btnContador.Size = new System.Drawing.Size(241, 89);
-            this.btnContador.TabIndex = 2;
-            this.btnContador.Text = "Contador";
-            this.btnContador.UseVisualStyleBackColor = true;
-            this.btnContador.Click += new System.EventHandler(this.btnContador_Click);
+            this.btnCounter.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCounter.Location = new System.Drawing.Point(488, 296);
+            this.btnCounter.Name = "btnCounter";
+            this.btnCounter.Size = new System.Drawing.Size(241, 89);
+            this.btnCounter.TabIndex = 2;
+            this.btnCounter.Text = "Contador";
+            this.btnCounter.UseVisualStyleBackColor = true;
+            this.btnCounter.Click += new System.EventHandler(this.btnCounter_Click);
             // 
-            // Form1
+            // ThreadForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnContador);
-            this.Controls.Add(this.btnPrincipal);
+            this.Controls.Add(this.btnCounter);
+            this.Controls.Add(this.btnMain);
             this.Controls.Add(this.lblResult);
-            this.Name = "Form1";
+            this.Name = "ThreadForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "ThreadForm";
             this.ResumeLayout(false);
 
         }
@@ -81,8 +81,8 @@
         #endregion
 
         private System.Windows.Forms.Label lblResult;
-        private System.Windows.Forms.Button btnPrincipal;
-        private System.Windows.Forms.Button btnContador;
+        private System.Windows.Forms.Button btnMain;
+        private System.Windows.Forms.Button btnCounter;
     }
 }
 

@@ -11,9 +11,9 @@ namespace ThreadConsole
     {
         static void Main(string[] args)
         {
-            Thread threadSecundaria = new Thread(new ThreadStart(ThreadSecundaria));
-            threadSecundaria.IsBackground = true;
-            threadSecundaria.Start();
+            Thread secondaryThread = new Thread(new ThreadStart(SecondaryThread));
+            secondaryThread.IsBackground = true;
+            secondaryThread.Start();
 
             for (int i = 0; i < 10; i++)
             {
@@ -22,7 +22,7 @@ namespace ThreadConsole
             }
         }
 
-        private static void ThreadSecundaria()
+        private static void SecondaryThread()
         {
             for(int i = 0; i < 10; i++)
             {
